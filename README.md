@@ -9,7 +9,7 @@ This project uses Hardhat (inside a Docker container) to interact with the Ether
 An Ethereum node (specifically `cdk-erigon`) is managed using Kurtosis. The results of each stage are logged to `hardhat/results/results.json`.
 
 ## Project Structure
-
+```
 hh/
 ├── hardhat/                         # Hardhat project root
 │   ├── contracts/
@@ -26,6 +26,7 @@ hh/
 ├── Dockerfile                       # Dockerfile for building the Hardhat runner image
 ├── run_all_stages_with_kurtosis.sh  # Main orchestration script
 └── README.md                        # This file
+```
 ---
 ## Prerequisites
 
