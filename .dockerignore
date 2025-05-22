@@ -1,0 +1,7 @@
+hardhat/node_modules
+.git
+.env
+*.log
+results/
+cache/
+artifacts/

@@ -1,0 +1,64 @@
+[
+  {
+    "timestamp": "2025-05-22T18:42:22.236Z",
+    "networkUsed": "default",
+    "stage": "Stage 1: Raw Precompile Invocation (sha256)",
+    "inputs": {
+      "precompileAddress": "0x0000000000000000000000000000000000000002",
+      "inputDataHex": "0x48656c6c6f2c2043444b20457269676f6e20507265636f6d70696c6521",
+      "inputDataString": "Hello, CDK Erigon Precompile!",
+      "callerAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    "callDetails": {
+      "blockHash": "0x4f22ba0ecac44e9e83906f36129dc3fa324ecd7f9f4b125813b0ca3d55f2abe2",
+      "blockTimestamp": "2025-05-22T18:42:21.000Z"
+    },
+    "decodedOutput": "0x7da007e3e190670319b478c6d50ee722791aa2e986a13876dba6eeae6e29ef17",
+    "expectedOutput": "0x7da007e3e190670319b478c6d50ee722791aa2e986a13876dba6eeae6e29ef17",
+    "transactionHash": null,
+    "receiverAddress": "0x0000000000000000000000000000000000000002",
+    "blockNumber": 0,
+    "validationNotes": "Direct call successful. Returned data matches expected SHA256 hash.",
+    "verdict": "success"
+  },
+  {
+    "timestamp": "2025-05-22T18:42:23.079Z",
+    "networkUsed": "default",
+    "stage": "Stage 3: Contract Invocation (Ballot)",
+    "actions": [],
+    "testResults": [],
+    "verdict": "failure",
+    "error": "Stage 2 data not found"
+  },
+  {
+    "timestamp": "2025-05-22T18:51:39.560Z",
+    "networkUsed": "default",
+    "stage": "Stage 1: Raw Precompile Invocation (sha256)",
+    "inputs": {
+      "precompileAddress": "0x0000000000000000000000000000000000000002",
+      "inputDataHex": "0x48656c6c6f2c2043444b20457269676f6e20507265636f6d70696c6521",
+      "inputDataString": "Hello, CDK Erigon Precompile!",
+      "callerAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    "callDetails": {
+      "blockHash": "0xdc80925af582c9bfc2b298fbf0516a2ae420161e4fe988e2723d70a7049028d1",
+      "blockTimestamp": "2025-05-22T18:51:39.000Z"
+    },
+    "decodedOutput": "0x7da007e3e190670319b478c6d50ee722791aa2e986a13876dba6eeae6e29ef17",
+    "expectedOutput": "0x7da007e3e190670319b478c6d50ee722791aa2e986a13876dba6eeae6e29ef17",
+    "transactionHash": null,
+    "receiverAddress": "0x0000000000000000000000000000000000000002",
+    "blockNumber": 0,
+    "validationNotes": "Direct call successful. Returned data matches expected SHA256 hash.",
+    "verdict": "success"
+  },
+  {
+    "timestamp": "2025-05-22T18:51:40.374Z",
+    "networkUsed": "default",
+    "stage": "Stage 3: Contract Invocation (Ballot)",
+    "actions": [],
+    "testResults": [],
+    "verdict": "failure",
+    "error": "Stage 2 data not found"
+  }
+]
