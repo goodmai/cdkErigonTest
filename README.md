@@ -10,7 +10,7 @@ An Ethereum node (specifically `cdk-erigon`) is managed using Kurtosis. The resu
 
 ## Project Structure
 ```
-hh/
+/
 ├── hardhat/                         # Hardhat project root
 │   ├── contracts/
 │   │   └── Ballot.sol               # Ballot smart contract
